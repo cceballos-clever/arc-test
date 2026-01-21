@@ -74,7 +74,10 @@ kubectl cluster-info
 **Google Kubernetes Engine (GKE)**
 ```powershell
 # Install Google Cloud SDK
-# https://cloud.google.com/sdk/docs/install
+https://cloud.google.com/sdk/docs/install
+
+# Install Plugin OAuth
+gcloud components install gke-gcloud-auth-plugin
 
 # Authenticate with Google Cloud
 gcloud auth login
